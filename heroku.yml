@@ -1,0 +1,17 @@
+build:
+  docker:
+    web: ./backend/Dockerfile
+  config:
+    DEBUG_COLLECTSTATIC: 1
+    SECRET_KEY: build
+release:
+  image: web
+  command:
+    - python3 manage.py migrate
+
+run:
+  web: python3 manage.py migrate && python3 manage.py seed_db && gunicorn --bind 0.0.0.0:$PORT snaksnak_new_35878.asgi -w 4 -k uvicorn.workers.UvicornWorker
+  celery:
+    command:
+      - celery -A snaksnak_new_35878.celery worker -l INFO -E -B
+    image: web

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "255987029189",
+    "project_id": "snaksnak-47a34",
+    "storage_bucket": "snaksnak-47a34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255987029189:android:49034abfaf8022e86a0cac",
+        "android_client_info": {
+          "package_name": "com.snaksnak16642"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255987029189-89pqo7djarp94vdv0kqg5q6uhcfj7763.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKZRRtN6B-WgJ1Msk2cnKPwkmd7erurTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255987029189-89pqo7djarp94vdv0kqg5q6uhcfj7763.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "255987029189-506druhofcu8i61ko9jiuic24qa93olm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.snaksnak"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
